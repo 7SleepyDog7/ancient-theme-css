@@ -1,0 +1,138 @@
+/*------------------------------------------------------------------------------
+                      YorHa Menu Theme
+------------------------------------------------------------------------------*/
+
+:root {
+  --yorha-text-color: #454138; /* Text color (dark beige) */
+  --yorha-bg-color: #dcd8c0; /* Background color (light beige) */
+  --yorha-border-color: #666; /* Border color (gray) */
+  --yorha-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* YorHa font family */
+}
+
+.page-yorha-menu {
+  --font-text: var(--yorha-font-family);
+  --h1-weight: 0;
+  --h1-font: var(--yorha-font-family);
+  --h2-weight: 0;
+  --h3-weight: 0;
+  --h4-weight: 0;
+  --h5-weight: 0;
+  --h6-weight: 0;
+  --page-color: var(--yorha-bg-color);
+
+  color-scheme: dark;
+  background-color: var(--yorha-bg-color);
+  --text-normal: var(--yorha-text-color);
+  --text-muted: var(--yorha-text-color);
+  --checklist-done-color: var(--yorha-text-color);
+  --metadata-label-text-color: var(--yorha-text-color);
+  --tag-color: var(--yorha-text-color);
+  --link-color: var(--yorha-text-color);
+  --link-external-color: var(--yorha-text-color);
+  --link-unresolved-color: #ff3366; /* YorHa accent color */
+  --link-color-hover: #ff6699; /* YorHa accent color (hover) */
+  --metadata-input-text-color: var(--yorha-text-color);
+  --tag-background: color-mix(
+    in srgb,
+    var(--yorha-text-color) 20%,
+    transparent
+  );
+
+  --text-faint: color-mix(
+    in srgb,
+    var(--yorha-text-color) 50%,
+    transparent
+  );
+  --code-normal: var(--accent-color);
+  --code-background: color-mix(
+    in srgb,
+    var(--page-color) 80%,
+    black
+  ) !important;
+  --blockquote-border-color: var(--yorha-text-color);
+  --interactive-accent: #ff3366; /* YorHa accent color */
+  --collapse-icon-color-collapsed: var(--yorha-text-color);
+  --checkbox-color: var(--yorha-text-color);
+  --checkbox-marker-color: var(--yorha-bg-color);
+  --checkbox-color-hover: color-mix(
+    in srgb,
+    var(--yorha-text-color) 20%,
+    transparent
+  );
+  --checkbox-border-color: var(--yorha-text-color);
+  --list-marker-color: var(--yorha-text-color);
+  --embed-border-left: 2px solid var(--yorha-text-color);
+  --background-modifier-border-focus: #ff3366; /* YorHa accent color (focus) */
+  --background-modifier-border: color-mix(
+    in srgb,
+    var(--yorha-text-color) 20%,
+    transparent
+  );
+  --background-modifier-hover: color-mix(
+    in srgb,
+    var(--yorha-text-color) 20%,
+    transparent
+  );
+  --metadata-input-background-active: var(--accent-color-trans);
+
+  color: var(--yorha-text-color);
+  --hr-color: var(--yorha-text-color);
+}
+
+.page-yorha-menu .embed-minecraft img {
+  background-color: var(--yorha-bg-color);
+}
+
+.page-yorha-menu .multi-select-pill-content {
+  padding-top: 8px;
+}
+
+.page-yorha-menu .metadata-property-key {
+  padding-top: 8px;
+}
+
+.page-yorha-menu .metadata-input-text {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+.page-yorha-menu .text-button-label {
+  padding-top: 10px;
+}
+
+.page-yorha-menu .callout-title-inner {
+  padding-top: 6px;
+}
+
+.page-yorha-menu :is(h1, .HyperMD-header.HyperMD-header-1) {
+  text-align: center;
+  color: var(--yorha-text-color);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--yorha-font-family); /* Apply YorHa font to headings */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow beneath heading 1 */
+}
+
+.page-yorha-menu :is(h2, .HyperMD-header.HyperMD-header-2) {
+  text-align: center;
+  color: var(--yorha-text-color);
+  font-family: var(--yorha-font-family); /* Apply YorHa font to headings */
+}
+
+.page-yorha-menu :is(h3, .HyperMD-header.HyperMD-header-3) {
+  text-align: center;
+  color: var(--yorha-text-color);
+  font-family: var(--yorha-font-family); /* Apply YorHa font to headings */
+}
+
+.page-yorha-menu .multi-select-input {
+  font-family: var(--font-text);
+}
+
+.page-yorha-menu svg {
+  color: var(--yorha-text-color);
+}
+
+.page-yorha-menu hr {
+  color: var(--yorha-text-color);
+}
